@@ -11,7 +11,6 @@ Source:    %{name}-%{version}.tar.bz2
 Patch0:    jpilot-Mail-0.1.7-gcc4.patch
 URL:       %{url}
 Group:     Communications
-BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Requires:  jpilot >= 0.99.6
 BuildRequires: gtk2-devel jpilot_plugin-devel pilot-link-devel >= 0.11.8
