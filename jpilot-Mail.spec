@@ -29,7 +29,7 @@ sed -i "s|/usr/lib |%_libdir |g" configure
 
 %install
 mkdir -p %{buildroot}%{_libdir}/jpilot/plugins
-make install libdir=%{buildroot}%{_libdir}/jpilot/plugins datadir=%{buildroot}%{_docdir}/%{name}-%{version}
+make install libdir=%{buildroot}%{_libdir}/jpilot/plugins datadir=%{buildroot}%{_docdir}/%{name}
 rm -f %{buildroot}%{_libdir}/jpilot/plugins/*a
 
 %clean
