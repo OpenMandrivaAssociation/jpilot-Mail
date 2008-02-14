@@ -6,6 +6,7 @@ Source0:	http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/%{name}-%{version
 Patch0:		jpilot-Mail-0.1.7-gcc4.patch
 URL:		http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/index.html
 Group:		Communications
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPLv2 and GPLv2+
 Requires:	jpilot >= 0.99.6
 BuildRequires:	gtk2-devel 
