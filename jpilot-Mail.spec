@@ -1,6 +1,6 @@
 Name:		jpilot-Mail
 Version:	0.1.7
-Release:	%mkrel 4
+Release:	%mkrel 5
 Summary:	Mail plugin for JPilot
 Source0:	http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/%{name}-%{version}.tar.bz2
 Patch0:		jpilot-Mail-0.1.7-gcc4.patch
