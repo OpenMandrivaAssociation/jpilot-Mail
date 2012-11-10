@@ -1,0 +1,11 @@
+--- jpilot-Mail-0.1.7/src/mail.h.orig	2006-07-01 08:55:19.000000000 +0100
++++ jpilot-Mail-0.1.7/src/mail.h	2006-07-01 08:55:28.000000000 +0100
+@@ -81,7 +81,7 @@
+ extern struct MailSyncPref mailSyncPref;
+ extern struct MailSignaturePref mailSigPref;
+ 
+-extern struct MyMail *glob_mymail_list;
++
+ 
+ /*
+  * define flags Mozilla compatible: 

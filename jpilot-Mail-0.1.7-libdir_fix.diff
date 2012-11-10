@@ -1,0 +1,26 @@
+diff -Naur jpilot-Mail-0.1.7/Makefile.am jpilot-Mail-0.1.7.oden/Makefile.am
+--- jpilot-Mail-0.1.7/Makefile.am	2003-08-27 21:24:00.000000000 +0200
++++ jpilot-Mail-0.1.7.oden/Makefile.am	2008-11-10 13:38:02.000000000 +0100
+@@ -2,7 +2,7 @@
+ 
+ EXTRA_DIST = jpilot-Mail.spec reconf autogen.sh ChangeLog
+ SUBDIRS = src doc
+-jpilotlibdir = ${exec_prefix}/lib/jpilot/plugins
++jpilotlibdir = @libdir@/jpilot/plugins
+ 
+ DISTCLEANFILES = ChangeLog
+ 
+diff -Naur jpilot-Mail-0.1.7/src/Makefile.am jpilot-Mail-0.1.7.oden/src/Makefile.am
+--- jpilot-Mail-0.1.7/src/Makefile.am	2004-04-18 17:18:26.000000000 +0200
++++ jpilot-Mail-0.1.7.oden/src/Makefile.am	2008-11-10 13:37:39.000000000 +0100
+@@ -38,8 +38,8 @@
+ 	mime_coder.c\
+ 	utils.h
+ 
+-libmail_la_LDFLAGS=@RESOLV_LIBS@ @GTK_LIBS@ @PILOT_LIBS@ -rpath @exec_prefix@/lib/jpilot/plugins/ -module -avoid-version
++libmail_la_LDFLAGS=@RESOLV_LIBS@ @GTK_LIBS@ @PILOT_LIBS@ -rpath @libdir@/jpilot/plugins -module -avoid-version
+ 
+ # install the the jpilot plugins directory
+-libdir=${exec_prefix}/lib/jpilot/plugins
++libdir=@libdir@/jpilot/plugins
+ 
