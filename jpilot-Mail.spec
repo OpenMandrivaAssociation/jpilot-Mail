@@ -1,7 +1,7 @@
 Summary:	Mail plugin for JPilot
 Name:		jpilot-Mail
 Version:	0.1.7
-Release:	%mkrel 10
+Release:	%mkrel 11
 License:	GPLv2 and GPLv2+
 Group:		Communications
 URL:		http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/index.html
@@ -46,3 +46,65 @@ rm -rf %{buildroot}
 %doc doc/*.png doc/*.html
 %doc ChangeLog README TODO
 %{_libdir}/jpilot/plugins/libmail.so
+
+
+%changelog
+* Wed May 04 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-10mdv2011.0
++ Revision: 665832
+- mass rebuild
+
+* Fri Dec 03 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-9mdv2011.0
++ Revision: 606108
+- rebuild
+
+* Wed Mar 17 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-8mdv2010.1
++ Revision: 523088
+- rebuilt for 2010.1
+
+* Wed Sep 02 2009 Christophe Fergeau <cfergeau@mandriva.com> 0.1.7-7mdv2010.0
++ Revision: 425467
+- rebuild
+
+* Mon Nov 10 2008 Oden Eriksson <oeriksson@mandriva.com> 0.1.7-6mdv2009.1
++ Revision: 301749
+- fix libdir
+- fix deps
+
+* Tue Jun 17 2008 Thierry Vignaud <tv@mandriva.org> 0.1.7-5mdv2009.0
++ Revision: 221748
+- rebuild
+- fix no-buildroot-tag
+
+* Fri Dec 21 2007 Adam Williamson <awilliamson@mandriva.org> 0.1.7-4mdv2008.1
++ Revision: 136127
+- unversion doc dir
+- rebuild for new era
+- new license policy
+- spec clean
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Wed Mar 07 2007 Pascal Terjan <pterjan@mandriva.org> 0.1.7-3mdv2007.1
++ Revision: 134781
+- fix build on x86_64
+- use autoconf2.5
+- Import jpilot-Mail
+
+* Wed Sep 06 2006 Frederic Crozat <fcrozat@mandriva.com> 0.1.7-2mdv2007.0
+- Rebuild with new pilot-link
+
+* Mon May 29 2006 Stefan van der Eijk <stefan@eijk.nu> 0.1.7-1
+- update from Cris B <cris@beebgames.com>
+   - update URL
+   - gcc4 patch
+   - switch to gtk2
+
+* Mon May 29 2006 Stefan van der Eijk <stefan@eijk.nu> 0.0.6-10mdk
+- %%mkrel
+- remove redundant BuildRequires
+
+* Mon Jan 16 2006 Frederic Crozat <fcrozat@mandriva.com> 0.0.6-9mdk
+- Rebuild
+
