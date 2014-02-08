@@ -4,7 +4,7 @@
 Summary:	Mail plugin for JPilot
 Name:		jpilot-Mail
 Version:	0.1.7
-Release:	12
+Release:	13
 License:	GPLv2 and GPLv2+
 Group:		Communications
 Url:		http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/index.html
