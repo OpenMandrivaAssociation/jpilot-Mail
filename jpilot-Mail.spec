@@ -24,7 +24,7 @@ written on your Palm and upload mail that you received to your Palm.
 %prep
 
 %setup -q
-%apply_patches
+%autopatch -p1
 
 # To build on x86_64
 sed -i "s|/usr/lib |%_libdir |g" configure*
