@@ -7,7 +7,7 @@ Version:	0.1.7
 Release:	22
 License:	GPLv2 and GPLv2+
 Group:		Communications
-Url:		http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/index.html
+Url:		https://ludovic.rousseau.free.fr/softwares/jpilot-Mail/index.html
 Source0:	http://ludovic.rousseau.free.fr/softwares/jpilot-Mail/%{name}-%{version}.tar.bz2
 Patch0:		jpilot-Mail-0.1.7-gcc4.patch
 Patch1:		jpilot-Mail-0.1.7-libdir_fix.diff
